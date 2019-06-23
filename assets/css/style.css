@@ -18,7 +18,6 @@ h2 {
 
 #profile-pic {
     max-width: 200px;
-
 }
 
 .nav-item a {
@@ -29,11 +28,8 @@ h2 {
     color: #4aaaa5 !important;
 }
 
-
 .position-absolute {
-    position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
