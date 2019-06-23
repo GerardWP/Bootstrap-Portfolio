@@ -1,0 +1,29 @@
+body {
+    background: url("../images/houndstooth-pattern.png") #ccc;
+}
+
+h1,
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+header h1 {
+    background: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+#profile-pic {
+    max-width: 200px;
+
+}
+
+.nav-item a {
+    transition-duration: 111ms;
+}
+
+.nav-item a:hover {
+    color: #4aaaa5 !important;
+}
