@@ -3,7 +3,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h5 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -12,12 +13,18 @@ h4 {
     background: #4aaaa5;
 }
 
-h2 {
+h2,
+h5 {
     color: #4aaaa5;
 }
 
 #profile-pic {
     max-width: 200px;
+}
+
+#sm-icons img {
+    max-width: 60px;
+    max-height: 60px;
 }
 
 .nav-item a {
