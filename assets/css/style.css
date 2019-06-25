@@ -19,7 +19,7 @@ h5 {
 }
 
 #profile-pic {
-    max-width: 230px;
+    max-width: 100%;
 }
 
 #sm-icons img {
@@ -41,8 +41,8 @@ h5 {
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #profile-pic {
-        width: 100%;
+        max-width: 230px;
     }
 }
