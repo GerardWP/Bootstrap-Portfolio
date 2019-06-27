@@ -1,48 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-    background: url("../images/houndstooth-pattern.png") #ccc;
+  background: url("../images/houndstooth-pattern.png") #ccc;
 }
 
 h1,
 h2,
 h5 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 header h1,
 h4 {
-    background: #4aaaa5;
+  background: #4aaaa5;
 }
 
 h2,
 h5 {
-    color: #4aaaa5;
+  color: #4aaaa5;
 }
 
 #profile-pic {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #sm-icons img {
-    max-width: 60px;
-    max-height: 60px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .nav-item a {
-    transition-duration: 111ms;
+  transition-duration: 111ms;
 }
 
 .nav-item a:hover {
-    color: #4aaaa5 !important;
+  color: #4aaaa5 !important;
 }
 
 .position-absolute {
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 768px) {
-    #profile-pic {
-        max-width: 230px;
-    }
+  #profile-pic {
+    max-width: 230px;
+  }
 }
